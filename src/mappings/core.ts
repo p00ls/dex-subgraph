@@ -15,8 +15,6 @@ import { updatePairDayData, updateTokenDayData, updateUniswapDayData, updatePair
 import { getEthPriceInUSD, findEthPerToken, getTrackedVolumeUSD, getTrackedLiquidityUSD } from './pricing'
 import {
   convertTokenToDecimal,
-  ADDRESS_ZERO,
-  FACTORY_ADDRESS,
   ONE_BI,
   createUser,
   createLiquidityPosition,
@@ -24,6 +22,7 @@ import {
   BI_18,
   createLiquiditySnapshot
 } from './helpers'
+import { ADDRESS_ZERO, FACTORY_ADDRESS } from './environment'
 
 function isCompleteMint(mintId: string): boolean {
   return MintEvent.load(mintId).sender !== null // sufficient checks
