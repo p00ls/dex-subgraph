@@ -14,11 +14,11 @@
 // production
 //
 export const ADDRESS_ZERO: string = '0x0000000000000000000000000000000000000000'
-export const FACTORY_ADDRESS: string = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
-export const WETH_ADDRESS: string = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
-export const USDC_WETH_PAIR: string | null = '0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc'
-export const DAI_WETH_PAIR: string | null = '0xa478c2975ab1ea89e8196811f51a7b7ade33eb11'
-export const USDT_WETH_PAIR: string | null = '0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852'
+export const FACTORY_ADDRESS: string = '0x93F9a2765245fBeF39bC1aE79aCbe0222b524080'
+export const WETH_ADDRESS: string = '0x881ba05de1e78f549cc63a8f6cabb1d4ad32250d'
+export const USDC_WETH_PAIR: string | null = null
+export const DAI_WETH_PAIR: string | null = null
+export const USDT_WETH_PAIR: string | null = null
 export const WHITELIST: string[] = [
   '0x881ba05de1e78f549cc63a8f6cabb1d4ad32250d' // 00
 ]
