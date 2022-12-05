@@ -8,8 +8,8 @@
     "build-prod": "graph build ${SUBGRAPH:-subgraph-prod.yaml}",
     "codegen-staging": "graph codegen ${SUBGRAPH:-subgraph-staging.yaml} --output-dir src/types/",
     "codegen-prod": "graph codegen ${SUBGRAPH:-subgraph-prod.yaml} --output-dir src/types/",
-    "deploy-staging": "graph deploy p00ls/dex-staging-goerli ./subgraph-staging.yaml --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
-    "deploy-prod": "graph deploy p00ls/dex-production ./subgraph-prod.yaml --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug"
+    "deploy-staging": "graph deploy p00ls/dex-staging-goerli ./subgraph-staging.yaml --ipfs https://api.thegraph.com/ipfs/ --node http://localhost:8020 --debug",
+    "deploy-prod": "graph deploy p00ls/dex-production ./subgraph-prod.yaml --ipfs https://api.thegraph.com/ipfs/ --node http://localhost:8020 --debug"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.16.0",
